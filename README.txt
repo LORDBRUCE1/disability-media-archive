@@ -1,40 +1,25 @@
-DISABILITY MEDIA ARCHIVE — FORTY RESEARCHED WORKS
+DISABILITY MEDIA ARCHIVE — PRIVATE EDITING / PUBLIC GITHUB PAGES
 
-Open index.html in a modern desktop or mobile browser. No server or software installation needed.
+UPLOAD TO YOUR PUBLIC GITHUB REPOSITORY:
+  index.html
+  archive.json
 
-This is an expanded research-edition copy of the Disability Media Archive.
-It includes 40 real media titles, each with a guiding research question, a thesis to test,
-a serious counter-reading, contextual tags, and at least one source link in the book detail panel.
-The books span films, television, manga/anime, literature, and games from different regions.
+These are the only two files the public site needs. They are inside DMA_PUBLIC_GitHub_Pages.zip.
 
-CONTROLS
-- Hover/tap a book to see the 3D book effect. Select a book to read its full entry.
-- Search by title, region, topic, disability, or theme using the search field.
-- Choose a collection using the wheel, dropdown filters, or menu.
-- Use the shelf arrows to navigate among books.
-- Open Studio (upper right) to edit books and their research questions, notes, sources,
-  cover images, visual styling, and webpage content.
-- Source input format: Source label | https://source-address   (one source per line).
+KEEP PRIVATE ON YOUR COMPUTER:
+  DMA_PRIVATE_Studio_DO_NOT_UPLOAD.html
 
-FILES
-- index.html: full interactive website and editor, with 40 books already in it.
-- research-guide.md: readable critical research list with all 40 and comparative themes.
-- dma-40-researched-entries.json: optional standalone Studio-compatible archive backup.
-  Importing JSON replaces the current collection, so export your existing library first.
+Never upload the Studio HTML (or backups you don't want visible) to the public repository.
+An HTML page on a public GitHub Pages site cannot be restricted just by hiding a button or adding a JavaScript password.
 
-IMPORTANT DATA NOTES
-The new HTML uses separate storage identifiers from the old Disability Media Archive Studio
-so opening it does NOT replace previously stored books. Studio edits save only in the same
-browser/device and do not synchronize to a server. Export a backup regularly.
+PUBLISH NEW EDITS:
+1. Double-click DMA_PRIVATE_Studio_DO_NOT_UPLOAD.html locally to open it in your browser.
+2. Click Studio. Edit books and click Save book; save Page content/Appearance separately when edited.
+3. Open Backup & data → Publish to GitHub Pages → Download archive.json for GitHub.
+4. In your public repo at https://github.com/LORDBRUCE1/disability-media-archive use Add file → Upload files and upload archive.json at the repository ROOT. Confirm replacing the existing file and Commit changes.
+5. GitHub Pages will publish the new data. index.html stays the same. Your project URL is https://lordbruce1.github.io/disability-media-archive/
 
-IMPORTANT RESEARCH NOTES
-These are grounded research questions and provisional analyses, NOT verified line-by-line
-close readings of all forty original works. Some sources are peer-reviewed academic articles;
-others are publisher information, creator interviews, or critical reviews.
-Read the primary work before presenting a detailed claim as settled. Verify factual claims,
-particularly adaptations, release years, cultural claims, and authorial intentions.
+BACKUP / PREVIOUS EDITS:
+The private Studio keeps the original localStorage keys. Its existing edits will be visible when opened under the same origin as before; local file:// and GitHub-hosted copies do not share storage. If you edited the old PUBLIC Studio, first open it in that browser and export a full Backup JSON before replacing the published site. Then use Import archive inside your private local Studio to recover those edits.
 
-The mature-content case studies are treated as non-graphic academic discussions of ethics,
-representation and agency, not as material for accessing adult content.
-
-This edition does not provide film/game access or copyrighted content.
+IMPORTANT: The public source/research information is still intentionally visible; only the management tool is removed. Readers can drag books for their current session, but this does not change the published archive.
